@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+  <link rel="stylesheet" href="join.css">
+</head>
+<body>
+  <main id="main-holder">
+    <div class="login-wrapper">
+        <h2>회원가입</h2>
+        <form method="post" action="서버의url" id="login-form">
+            <input type="text" name="userName" placeholder="Email">
+            <input type="password" name="userPassword" placeholder="Password">
+            <input type="text" name="userName" placeholder="이름">
+            <div class="field birth">
+                <b>생년월일</b>
+                <div>
+                    <input type="text" style="background: #F8F8F8" placeholder="년(4자)">
+                    <select style="background: #F8F8F8;">            
+                        <option value="">월</option>
+                        <option value="">1월</option>
+                        <option value="">2월</option>
+                        <option value="">3월</option>
+                        <option value="">4월</option>
+                        <option value="">5월</option>
+                        <option value="">6월</option>
+                        <option value="">7월</option>
+                        <option value="">8월</option>
+                        <option value="">9월</option>
+                        <option value="">10월</option>
+                        <option value="">11월</option>
+                        <option value="">12월</option>
+                    </select>
+                    <input type="text" style="background: #F8F8F8" placeholder="일" style="color: black">
+                </div>
+            </div>
+            <input type="text" name="userName" placeholder="전화번호">
+            <input type="text" name="userName" placeholder="관심사">
+            <input type="text" name="userName" placeholder="종교">
+            <input type="submit" value="회원가입">
+            
+        </form>
+    </div>
+  </main>
+</body>
+</html>
